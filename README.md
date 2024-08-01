@@ -23,7 +23,7 @@ The first time you run dropbox_uploader, you'll be guided through a wizard in or
 * ./dropbox_uploader.sh upload "My File.txt" "My File 2.txt"
 * ./dropbox_uploader.sh share "My File.txt"
 * ./dropbox_uploader.sh list
-* 
+
 # Tested Environments
 * GNU Linux
 * FreeBSD 8.3/10.0
