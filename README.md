@@ -14,7 +14,6 @@ The first time you run dropbox_uploader, you'll be guided through a wizard in or
 <%%>: Required param`
 
 # Examples:
-`
 * ./dropbox_uploader.sh upload /etc/passwd /myfiles/passwd.old
 * ./dropbox_uploader.sh upload *.zip /
 * ./dropbox_uploader.sh -x .git upload ./project /
@@ -24,9 +23,8 @@ The first time you run dropbox_uploader, you'll be guided through a wizard in or
 * ./dropbox_uploader.sh upload "My File.txt" "My File 2.txt"
 * ./dropbox_uploader.sh share "My File.txt"
 * ./dropbox_uploader.sh list
-`
+* 
 # Tested Environments
-`
 * GNU Linux
 * FreeBSD 8.3/10.0
 * MacOSX
@@ -38,6 +36,6 @@ The first time you run dropbox_uploader, you'll be guided through a wizard in or
 * Chrome OS
 * OpenBSD
 * Termux
-`
+
 # Running as cron job for mysql script automation
-` use crontab -e and put the command */10 * * * * /path/to/mysql_script.sh `
+` use crontab -e and put the command 0 2 * * * /path/to/mysql_script.sh `
